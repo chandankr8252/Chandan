@@ -199,7 +199,13 @@ ul.primary-menu { display: flex;  flex-wrap: wrap;  justify-content: start;  pad
 .hours-box { background: #fff3e0; width: 382px; padding-top: 25px; padding-bottom: 25px; text-align: center; border: 3px solid #082a7a;}
 
 .inspection-section {display: flex;}
-.hours-box.licensed {padding-top: 40px;}
+.hours-box.licensed {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.inspection-section a {
+  text-decoration: navajowhite;
+}
 .hours-box.licensed {margin-left: 20px; margin-right: 20px;}
 
 .inspection-section {padding-top: 50px;}
@@ -533,6 +539,7 @@ aside.footer-widgets-outer-wrapper {border-bottom: none !important;}
 }
 .gallery-image img {
   width: 100%;
+  height: 600px;
 }
 .testimonial-text.text-center {
   margin-bottom: 25px;
@@ -810,39 +817,8 @@ aside.footer-widgets-outer-wrapper {border-bottom: none !important;}
     .rencents-imag {margin-top: 30px;}
     .image-wrap {padding-bottom: 60%;}
 
-    /*===================News===========================*/
 
-    .blog .type-post:nth-child(2n+1) {width: 100%; float: unset; margin-right: 0;}
-    .blog .type-post:nth-child(2n) {margin-left: 0;}
-    .load-btn {margin-top: 40px; padding-bottom: 40px;}
-    .blog  .family-section {padding-top: 60px; padding-bottom: 108px;}
 
-    /*---------------------------------commercial roofing------------------------------*/
-
-    .ensure {padding-left: 30px; padding-right: 30px; padding-top: 0; padding-bottom: 50px;}
-    .our-team-sectio.ensure .team-para {margin-bottom: 30px;}
-    .important-img {margin-bottom: 30px;}
-    .rang-section.right-sect .range-head { padding: 0; padding-top: 40px;}
-    .house-img-section {padding-top: 0; padding-bottom: 30px;}
-
-    /*--------------------------------- flat roof repair------------------------------*/
-
-    .range-head.common-head {padding: 0;}
-    .rang-section.rubber .range-head {padding: 0;}
-    .types {margin-right: 0;}
-    .fully-section {display: unset;}
-    .family-section.today h2 {font-size: 25px;}
-    .imp-section.guaranteed-section h2 {font-size: 25px;}
-    .our-team-sectio.flat-repair {padding-left: 15px; padding-right: 15px;}
-    .choose-section.choosing h2 {font-size: 25px;}
-
-    /*--------------------------------- Services------------------------------*/
-
-    .light-float {display: flex;}
-    .family-section.done-section h2 {font-size: 30px !important;}
-    /*11-7-2022*/
-    .choose-col .banner-dot-image { max-width: 540px; margin: 40px auto; }
-}
 
 
 
@@ -851,6 +827,10 @@ aside.footer-widgets-outer-wrapper {border-bottom: none !important;}
 .accordion-collapse {
   padding-left: 0;
   padding-right: 0;
+}
+.gallery-image img {
+  width: 100%;
+  height: auto;
 }
 .chandan-title {
   margin-top: -33% !important;
@@ -955,7 +935,7 @@ aside.footer-widgets-outer-wrapper {border-bottom: none !important;}
     .footer-effect {margin-bottom: 0;}
     #site-footer {padding-top: 40px; padding-bottom: 2px;}
 .accordion-collapse {
-  display: revert-layer;
+  display: unset;
 }
     .accord-img {display: flex; justify-content: center !important; margin-top: 20px; padding-bottom: 20px;}
 .get-linl {
